@@ -1,4 +1,4 @@
-#fndef MAIN_H
+#ifndef MAIN_H
 #define MAIN_H
 
 /**
@@ -7,6 +7,6 @@
  * Desc: Header file containing declarations for all funcitons
  */
 
-int _putchar(char c)
+char _putchar(char c)
 
 #endif
