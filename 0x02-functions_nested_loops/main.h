@@ -1,8 +1,8 @@
-#fndef FUNCS_H
-#define FUNC_H
+#fndef MAIN_H
+#define MAIN_H
 
 /**
- * File - funcs.h
+ * File - MAIN.h
  * 
  * Desc: Header file containing declarations for all funcitons
  */
