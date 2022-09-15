@@ -1,16 +1,15 @@
 #include "main.h"
 
 /**
- * _abs -  determine teh absolute value of an integer
- * @n: The number to be be checked
- *
- * Return: absolute value
+ * _islower -  chekcs if a character is lower case
+ * @c: The character to be checked
+ * Return: 1 if lower and 0 if not
  */
 
-int _abs(int n)
+int _islower(int c)
 {
-	if (n >= 0)
-		return (n);
+	if (c >= 'a' && c <= 'z')
+		return (1);
 	else
-		return (-n);
+		return (0);
 }
