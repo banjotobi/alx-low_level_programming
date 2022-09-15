@@ -1,12 +1,21 @@
 #include "main.h"
-#include <unistd.h>
+
 /**
- * _putchar - writes the character to c to stdout
- * @c: the character to print
- *
- * Return: On success 1.
+ * main - check description
+ * 
+ * Return: Always 0 (Success)
  */
-char _putchar(char c)
+
+int main(void)
 {
-	return(write(1, &c, 1));
+	char *letter = "_putchar";
+
+	while (*letter)
+	{
+		_putchar(*letter);
+		letter++;
+	}
+	_putchar('\n');
+
+	return (0);
 }
