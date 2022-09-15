@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- * main - check description
- * 
+ * main - check descriptio
  * Return: Always 0 (Success)
  */
 
