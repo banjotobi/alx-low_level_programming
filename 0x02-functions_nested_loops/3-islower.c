@@ -1,16 +1,16 @@
 #include "main.h"
 
 /**
- * _islower -  checks if a character is lower case
- * @c: The character to be checked
+ * _abs -  determine teh absolute value of an integer
+ * @n: The number to be be checked
  *
- * Return: 1 if lower, 0 if capital
+ * Return: absolute value
  */
 
-int _islower(int c)
+int _abs(int n)
 {
-	if (c >= 'a' && c <= 'z')
-		return (1);
+	if (n >= 0)
+		return (n);
 	else
-		return (0);
+		return (-n);
 }
