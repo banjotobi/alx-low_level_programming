@@ -7,6 +7,6 @@
  * Desc: Header file containing declarations for all funcitons
  */
 
-char _putchar(char c)
+char _putchar(char c);
 
 #endif
