@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * isupper - check if characer is capital lettr
- * @c the character being checkd
+ * _isupper - check if characer is capital lettr
+ * @c: the character being checkd
  *
  * Return: 1 if CAPITAL, 0 not capital
  */
