@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * isupper - check for digit (0-9)
- * @c the number being checkd
+ * _isdigit - check for digit (0-9)
+ * @c: the number being checkd
  *
  * Return: 1 if DIIGT, 0 not DIGIT
  */
