@@ -3,9 +3,11 @@
 /**
  * _memset - fills memory with byte
  *
- * n: number of spaces
- * s: memory area
- * b: value
+ * @n: number of spaces
+ * @s: memory area
+ * @b: value
+ *
+ * Return - filled display
  */
 
 char *_memset(char *s, char b, unsigned int n)
