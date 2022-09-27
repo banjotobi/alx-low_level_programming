@@ -24,4 +24,6 @@ void print_diagsums(int *a, int size)
 		r += *(a + p);
 	}
 	print("%i, %i\n", l, r);
+
+	return;
 }
